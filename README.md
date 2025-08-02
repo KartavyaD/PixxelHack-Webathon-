@@ -42,13 +42,13 @@ Thanks to the following people who helped build this project:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/username1">
+      <a href="https://github.com/Aryan">
         <img src="https://avatars.githubusercontent.com/aryandhandhukiya" width="80px;" alt=""/><br />
         <sub><b>@username1</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/username2">
+      <a href="https://github.com/Kartavya">
         <img src="https://avatars.githubusercontent.com/KartavyaD" width="80px;" alt=""/><br />
         <sub><b>@username2</b></sub>
       </a>
