@@ -16,7 +16,7 @@ Welcome to **UIverse**, a tech-themed, futuristic front-end template crafted spe
 ## ✨ Features
 
 - 🎥 **Hero Section with Video Background**  
-- 📱 **Fully Responsive Design (Mobile/Desktop)**  
+- 📱 **Fully Responsive Design (Mobile/Desktop/Tabs)**  
 - 🧭 **Toggle Sidebar Navigation with Smooth Animation**  
 - 🧠 **Product Cards for AI Tools / Digital Products**  
 - 🧊 **Black, Blue & Purple Futuristic Theme**  
