@@ -34,7 +34,27 @@ Welcome to **UIverse**, a tech-themed, futuristic front-end template crafted spe
 - **JavaScript / jQuery**
 - **Google Fonts: Orbitron, Inter**
 
----
 
-## 🗂 Project Structure
+## 🤝 Contributors
+
+Thanks to the following people who helped build this project:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/username1">
+        <img src="https://avatars.githubusercontent.com/aryandhandhukiya" width="80px;" alt=""/><br />
+        <sub><b>@username1</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/username2">
+        <img src="https://avatars.githubusercontent.com/KartavyaD" width="80px;" alt=""/><br />
+        <sub><b>@username2</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 
