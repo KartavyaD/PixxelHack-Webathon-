@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIverse</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Transparent ripple canvas overlay -->
+<canvas id="rippleCanvas" style="position:fixed; top:0; left:0; width:100vw; height:100vh; pointer-events:none; z-index:9999;"></canvas>
+    <header>
+        <div class="logo">UIverse</div>
+        <!-- <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="partners/index.html">ELEMENTS</a></li>
+                <li><a href="team/index.html">PARTNERS</a></li>
+                <li><a href="image-hover/index.html">CONTACT US</a></li>
+            </ul>
+        </nav> -->
+
+        
+        <div class="actions">
+            <button>Cart 🛒</button>
+            <button>Sign In 👤</button>
+        </div>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button>🔍</button>
+    </div>
+
+
+  <!--NavBar-->
+  <!-- Toggle Button -->
+  <button class="btn-toggle">MENU</button>
+
+  <!-- Sidebar Menu -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <p>We make digital products for complex<br>challenges: from mobile apps<br>to enterprise systems.</p>
+      <button class="close-sidebar">CLOSE ×</button>
+    </div>
+
+    <ul class="sidebar-list">
+      <li class="sidebar-item">
+        <span class="sidebar-text">ABOUT US</span>
+        <span class="arrow">→</span>
+      </li>
+      <li class="sidebar-item">
+        <span class="sidebar-text">ELEMENTS</span>
+        <span class="arrow">→</span>
+      </li>
+      <li class="sidebar-item">
+        <span class="sidebar-text">SERVICES</span>
+        <span class="arrow">→</span>
+      </li>
+      <li class="sidebar-item">
+        <span class="sidebar-text">CONTACT US</span>
+        <span class="arrow">→</span>
+      </li>
+    </ul>
+  </div>
+
+    <div class="hero">
+        <div class="hero-content">  
+            <h1>Welcome to UIverse</h1>
+            <p>Explore cutting-edge templates and code for your projects.</p>
+            <button class="cta"><a href="pg_trans.html">Get Started</a></button>
+        </div>
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="3129671-uhd_3840_2160_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <main>
+        <section class="featured-products">
+            <h2>Featured Elements</h2>
+                    <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?_gl=1*1eilty7*_ga*NTg1MTA2MzIwLjE3NTQwNTI2Mzc.*_ga_8JE65Q40S6*czE3NTQwNTI2MzckbzEkZzEkdDE3NTQwNTM3MTAkajU5JGwwJGgw" alt="Neural Network Architect Pro">
+                <h3>Neural Network Architect Pro</h3>
+                <p>$299</p>
+                <button class="live-preview">Live Preview</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?_gl=1*acm1ot*_ga*NTg1MTA2MzIwLjE3NTQwNTI2Mzc.*_ga_8JE65Q40S6*czE3NTQwNTI2MzckbzEkZzEkdDE3NTQwNTM4MTUkajU3JGwwJGgw" alt="SmartChat Engine">
+                <h3>SmartChat Engine</h3>
+                <p>$199</p>
+                <button class="live-preview">Live Preview</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg" alt="Vision Master AI">
+                <h3>Vision Master AI</h3>
+                <p>$249</p>
+                <button class="live-preview">Live Preview</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/29445974/pexels-photo-29445974.jpeg" alt="AI Code Generator">
+                <h3>AI Code Generator</h3>
+                <p>$299</p>
+                <button class="live-preview">Live Preview</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/14553720/pexels-photo-14553720.jpeg" alt="Data Mining Suite">
+                <h3>Data Mining Suite</h3>
+                <p>$199</p>
+                <button class="live-preview">Live Preview</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg" alt="Sentiment Analyzer Pro">
+                <h3>Sentiment Analyzer Pro</h3>
+                <p>$149</p>
+                <button class="live-preview">Live Preview</button>
+            </div>
+        </div>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>John Doe</h3>
+                    <p>AI Engineer</p>
+                    <div class="photo-popup">Photo</div>
+                </div>
+                <div class="team-member">
+                    <h3>Jane Smith</h3>
+                    <p>Machine Learning Expert</p>
+                    <div class="photo-popup">Photo</div>
+                </div>
+                <div class="team-member">
+                    <h3>Mike Johnson</h3>
+                    <p>Data Scientist</p>
+                    <div class="photo-popup">Photo</div>
+                </div>
+                <div class="team-member">
+                    <h3>Sarah Lee</h3>
+                    <p>Software Developer</p>
+                    <div class="photo-popup">Photo</div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="partners-section">
+            <h2>Our Trusted Partners</h2>
+            <div class="marquee-container">
+                <div class="marquee">
+                    <div class="marquee-content">
+                        <span>OpenAI</span>
+                        <span>Google AI</span>
+                        <span>IBM Watson</span>
+                        <span>Microsoft AI</span>
+                        <span>Amazon AWS AI</span>
+                        <span>DeepMind</span>
+                        <span>OpenAI</span>
+                        <span>Google AI</span>
+                        <span>IBM Watson</span>
+                        <span>Microsoft AI</span>
+                        <span>Amazon AWS AI</span>
+                        <span>DeepMind</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button class="live-preview">Live Preview</button>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Help & Support</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        
+    </footer>
+
+    <!-- Modal for Live Preview -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Live Preview</h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
